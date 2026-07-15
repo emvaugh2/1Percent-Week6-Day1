@@ -24,7 +24,7 @@ Now, lets jump into our lab!
 
 ## Build a Simple Flask App
 
-Our first lab task is create a Flask app. We were given code to put in our container that will start up our container to listen on all layer 3 interfaces on port 5000. Once that happens, it starts the Flask server up. The URL path is basically localhost:5000/ so anything traffic that accesses that URL will triggr the hello function. I've explained each part of the code in my script file if you want a deeper explanation. 
+Our first lab task is create a Flask app. We were given code to put in our container that will start up our container to listen on all layer 3 interfaces on port 5000. Once that happens, it starts the Flask server up. The URL path is basically localhost:5000/ so any traffic that accesses that URL will triggr the hello function. I've explained each part of the code in my script file if you want a deeper explanation. 
 
 
 
@@ -65,7 +65,7 @@ On to the next task!
 
 ## Write and Build a Dockerfile
 
-Now, lets actually build the container that will run out `greeting_server.py` script. The lab gave us the configurations for the file but I'll still go over each part of it. 
+Now, lets actually build the container that will run our `greeting_server.py` script. The lab gave us the configurations for the file but I'll still go over each part of it. 
 
 ![Contents of the Dockerfile.](images/OnePercentWeek6Day1_Task6.png)
 
